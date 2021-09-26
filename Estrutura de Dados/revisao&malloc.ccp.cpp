@@ -6,10 +6,9 @@
 #include <locale.h> // biblioteca de linguagens regionais.
 
 
-	
 int main() {
 	
-	setlocale(LC_ALL, "Portuguese"); // seleção de local.
+	setlocale(LC_ALL, "Portuguese"); // sele??o de local.
 
 	int *p;
 	printf("%d\n", sizeof(int));
@@ -18,10 +17,11 @@ int main() {
 	// sizeof entrega o tamanho de alguma coisa.
 	
 	if (!p) {
-		printf("Memória insuficiente\n");
+		printf("Mem?ria insuficiente\n");
 	} else {
-		printf("Memória alocada com sucesso\n");
-	}	
+		printf("Mem?ria alocada com sucesso\n");
+	}
 	
 	return 0;
+	
 }
