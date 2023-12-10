@@ -41,11 +41,10 @@ void gerarVetor(int vet[], int num) {
 
 void imprimirVetor(int vet[], int num) {
 	
-		for (int i = 0; i < num; i++) {
+	for (int i = 0; i < num; i++) {
 			printf("%5d ", vet[i]);
 	}
-		printf("\n");
-	
+	printf("\n");	
 }
 
 void bubbleSort(int vet[], int num) {
@@ -60,8 +59,7 @@ void bubbleSort(int vet[], int num) {
 				vet[j+1] = vet[j];
 				vet[j] = aux;	
 				trocar++;
-			}
-			
+			}			
 		}
 		imprimirVetor(vet, num);
 	}
